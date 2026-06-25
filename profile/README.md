@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.png" alt="Agentic Control Plane" width="820" />
+  <img src="https://raw.githubusercontent.com/agentic-control-plane/.github/main/profile/assets/banner.png" alt="Agentic Control Plane" width="820" />
 </p>
 
 <h1 align="center">Agentic Control Plane</h1>
@@ -34,7 +34,7 @@ curl -sf https://agenticcontrolplane.com/install.sh | bash
 One command auto-detects Claude Code and OpenClaw, installs a governance hook, opens your browser to log in, and starts logging in 30 seconds. For ChatGPT, Claude Desktop, and Lovable, add `mcp.agenticcontrolplane.com/mcp` as a connector.
 
 <p align="center">
-  <img src="./assets/dashboard-overview.png" alt="ACP dashboard — overview" width="820" />
+  <img src="https://raw.githubusercontent.com/agentic-control-plane/.github/main/profile/assets/dashboard-overview.png" alt="ACP dashboard — overview" width="820" />
 </p>
 
 ---
