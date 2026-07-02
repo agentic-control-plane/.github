@@ -4,7 +4,7 @@
 
 <h1 align="center">Agentic Control Plane</h1>
 
-<p align="center"><strong>Every tool call your AI makes — logged, governed, and visible to your team.</strong></p>
+<p align="center"><strong>See, control, and optimize your AI agents — down to each tool call.</strong></p>
 
 <p align="center">
   <a href="https://agenticcontrolplane.com">agenticcontrolplane.com</a> ·
@@ -16,7 +16,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/install-one%20command-5b5bd6" alt="One command install" />
   <img src="https://img.shields.io/badge/clients-Claude%20Code%20·%20OpenClaw%20·%20ChatGPT%20·%20Cursor%20·%20MCP-06b6d4" alt="Clients supported" />
-  <img src="https://img.shields.io/badge/free%20tier-unlimited%20logging-16a34a" alt="Free tier" />
+  <img src="https://img.shields.io/badge/free%20tier-10k%20calls%2Fmo-16a34a" alt="Free tier" />
 </p>
 
 ---
@@ -95,16 +95,20 @@ The ACP commercial control plane (dashboard, team management, policy engine) is 
 
 ## Pricing
 
-- **Free** — unlimited tool-call logging, policy enforcement, data protection. For individuals.
-- **Team** — per-member activity, per-client and per-user policies. Free during beta.
+- **Free** — 10,000 calls/month, unlimited agents & seats, full identity + policy + audit.
+- **Pro ($29.99/mo)** — 100,000 calls, 90-day retention, custom PII patterns.
+- **Team ($299.99/mo)** — 1M calls, roles/RBAC, org-wide cost rollup, 1-year retention.
+- **Enterprise** — SSO, VPC/self-host, unlimited retention. [Talk to us](https://agenticcontrolplane.com/pricing).
 
-[Start free →](https://cloud.agenticcontrolplane.com/login)
+[Full pricing →](https://agenticcontrolplane.com/pricing) · [Start free →](https://cloud.agenticcontrolplane.com/login)
 
 ---
 
 ## Community & contact
 
 - **Blog / writing** → [agenticcontrolplane.com/writing](https://agenticcontrolplane.com/writing)
+- **What we see & store, exit path, security posture** → [agenticcontrolplane.com/trust](https://agenticcontrolplane.com/trust)
+- **Want it installed with you?** → [book 30 minutes](https://agenticcontrolplane.com/install) — a working session, not a pitch
 - **Report a security issue** → see [SECURITY.md](https://github.com/davidcrowe/GatewayStack/blob/main/SECURITY.md) in GatewayStack
 - **Everything else** → open an issue on the relevant repo above, or email via the contact on [agenticcontrolplane.com](https://agenticcontrolplane.com)
 
