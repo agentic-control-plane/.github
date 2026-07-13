@@ -84,6 +84,6 @@ Free for individuals (10k calls/mo, unlimited agents &amp; seats). Pro **$29.99/
 
 ## Contact
 
-Blog → [agenticcontrolplane.com/writing](https://agenticcontrolplane.com/writing) · Trust &amp; security → [/trust](https://agenticcontrolplane.com/trust) · Security disclosure → [security.txt](https://agenticcontrolplane.com/.well-known/security.txt) · Everything else → david@agenticcontrolplane.com
+Blog → [agenticcontrolplane.com/writing](https://agenticcontrolplane.com/writing) · Trust &amp; security → [/trust](https://agenticcontrolplane.com/trust) · Security disclosure → [security.txt](https://agenticcontrolplane.com/.well-known/security.txt) · Everything else → [GitHub Discussions](https://github.com/orgs/agentic-control-plane/discussions) or [agenticcontrolplane.com/community](https://agenticcontrolplane.com/community)
 
 <p align="center"><sub>© Reducibl · <a href="https://agenticcontrolplane.com/privacy">Privacy</a> · <a href="https://agenticcontrolplane.com/terms">Terms</a></sub></p>
