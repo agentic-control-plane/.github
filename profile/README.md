@@ -60,6 +60,7 @@ The enforcement layer is **MIT-licensed and runs in your infrastructure** — so
 | [**acp-governance-sdks**](https://github.com/agentic-control-plane/acp-governance-sdks) | Drop-in SDKs (TypeScript + Python) — scoped subagents and delegation chains inside your framework code. |
 | [**delegation-chain-spec**](https://github.com/agentic-control-plane/delegation-chain-spec) | **ADCS** — the open spec for agent-to-agent delegation: capability narrowing, a human sponsor at the root of every chain, per-hop scope intersection. |
 | [**hermes-acp-plugin**](https://github.com/agentic-control-plane/hermes-acp-plugin) | Native Python plugin for Nous Research's Hermes Agent — `pip install hermes-acp`, every tool call governed. |
+| [**acp-pr-reviewer-demo**](https://github.com/agentic-control-plane/acp-pr-reviewer-demo) | Worked A2A example — a PR reviewer delegating to scoped sub-agents, every hop audited. |
 | [**agentgovbench**](https://github.com/agentic-control-plane/agentgovbench) | 48-scenario benchmark testing identity, policy, and observability across agent frameworks. |
 | [**GatewayStack**](https://github.com/agentic-control-plane/GatewayStack) | The runtime the above build on — identity, policy, limits, routing, PII redaction, audit as composable npm modules. |
 
