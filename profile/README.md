@@ -11,7 +11,7 @@
   <a href="https://cloud.agenticcontrolplane.com/login">Live dashboard</a> ·
   <a href="https://agenticcontrolplane.com/docs">Docs</a> ·
   <a href="https://agenticcontrolplane.com/trust">Trust &amp; security</a> ·
-  <a href="https://agenticcontrolplane.com/install">Book a 30-min install</a>
+  <a href="https://agenticcontrolplane.com/call">Book a 30-min install</a>
 </p>
 
 <p align="center">
@@ -33,10 +33,11 @@ We run our own production agents through it. The dashboard below is a real works
 ## Try it in 30 seconds
 
 ```bash
-curl -sf https://agenticcontrolplane.com/install.sh | bash
+# Free, on-device, no account — runs entirely on your machine:
+curl -sf https://agenticcontrolplane.com/install.sh | bash -s -- --local
 ```
 
-Auto-detects Claude Code and other coding agents, drops in a governance hook, and shows your first governed call in about 30 seconds. Other paths:
+Auto-detects Claude Code and other coding agents, drops in a governance hook wired to an on-device policy engine, and shows your first governed call in about 30 seconds — no sign-up, nothing leaves your machine. Drop `--local` to connect a team workspace (shared policy, cost X-ray, one console across everyone's agents). Other paths:
 
 - **Framework agents** (LangGraph, CrewAI, Vercel AI SDK, OpenAI Agents) → drop in a package, wrap your tools.
 - **MCP clients** (ChatGPT, Claude Desktop) → add `mcp.agenticcontrolplane.com/mcp` as a connector.
@@ -80,7 +81,7 @@ ACP closes that gap at the tool-call boundary. [The full argument →](https://a
 
 ## Pricing
 
-Free for individuals (10k calls/mo, unlimited agents &amp; seats). Pro **$29.99/mo**, Team **$299.99/mo flat** (unlimited seats), Enterprise for SSO + self-host. [Full pricing →](https://agenticcontrolplane.com/pricing)
+Free for individuals, forever — every client, every agent, unlimited, no call meter. Team **$15/seat/mo** (a seat is a person; all their clients and agents included). Enterprise for SSO + self-host. [Full pricing →](https://agenticcontrolplane.com/pricing)
 
 ## Contact
 
