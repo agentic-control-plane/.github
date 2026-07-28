@@ -24,6 +24,13 @@
 
 ACP is the layer between your AI agents and the systems they touch. It sits in the runtime call path and makes every tool and model call **identified, policy-checked, priced, and logged** — across any framework, with one install and no code changes. When an agent tries to refund the wrong customer, delete the wrong table, or quietly run up the bill, this is the layer that sees it and stops it.
 
+Here is the whole thing in 60 seconds — one command, no account, and the same policy stopping both Claude Code and Codex. Real recording, real denies, nothing mocked:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/agentic-control-plane/acp-install/main/demo/acp-local-demo.gif" alt="Real terminal recording: install.sh --local installs with no signup; a coding agent's force-push to main is blocked by the safety floor, a network call has to ask, normal work runs and is logged; Codex hits the same floor; tail ~/.acp/audit.jsonl shows every call and its decision." width="860" />
+</p>
+<p align="center"><sub>Recorded from the live installer and the real CLIs — <a href="https://github.com/agentic-control-plane/acp-install/tree/main/demo">how it's made</a>.</sub></p>
+
 We run our own production agents through it. The dashboard below is a real workspace:
 
 <p align="center">
