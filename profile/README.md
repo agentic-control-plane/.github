@@ -88,7 +88,7 @@ ACP closes that gap at the tool-call boundary. [The full argument →](https://a
 
 ## Pricing
 
-Free for individuals, forever — every client, every agent, unlimited, no call meter. Team **$15/seat/mo** (a seat is a person; all their clients and agents included). Enterprise for SSO + self-host. [Full pricing →](https://agenticcontrolplane.com/pricing)
+Free up to 5 initiating agents — every client, unlimited calls, subagents and delegation chains free. Team **$49/mo** for up to 25 agents (Solo $25 for 10). Enterprise for SSO, self-host, and compliance exports. [Full pricing →](https://agenticcontrolplane.com/pricing)
 
 ## Contact
 
