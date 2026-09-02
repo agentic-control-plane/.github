@@ -11,7 +11,7 @@
   <a href="https://cloud.agenticcontrolplane.com/login">Live dashboard</a> ·
   <a href="https://agenticcontrolplane.com/docs">Docs</a> ·
   <a href="https://agenticcontrolplane.com/trust">Trust &amp; security</a> ·
-  <a href="https://agenticcontrolplane.com/call">Book a 30-min install</a>
+  <a href="https://agenticcontrolplane.com/contact">Contact</a>
 </p>
 
 <p align="center">
