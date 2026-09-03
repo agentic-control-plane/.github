@@ -44,11 +44,11 @@ We run our own production agents through it. The dashboard below is a real works
 curl -sf https://agenticcontrolplane.com/install.sh | bash -s -- --local
 ```
 
-Auto-detects Claude Code and other coding agents, drops in a governance hook wired to an on-device policy engine, and shows your first governed call in about 30 seconds — no sign-up, nothing leaves your machine. Drop `--local` to connect a team workspace (shared policy, cost X-ray, one console across everyone's agents). Other paths:
+Auto-detects Claude Code and other coding agents, drops in a policy hook wired to an on-device policy engine, and shows your first policy-checked call in about 30 seconds — no sign-up, nothing leaves your machine. Drop `--local` to connect a team workspace (shared policy, cost X-ray, one console across everyone's agents). Other paths:
 
 - **Framework agents** (LangGraph, CrewAI, Vercel AI SDK, OpenAI Agents) → drop in a package, wrap your tools.
 - **MCP clients** (ChatGPT, Claude Desktop) → add `mcp.agenticcontrolplane.com/mcp` as a connector.
-- **Anything else** → call the governance API directly with a bearer token.
+- **Anything else** → call the policy API directly with a bearer token.
 
 ## What it does
 
@@ -64,10 +64,10 @@ The enforcement layer is **MIT-licensed and runs in your infrastructure** — so
 
 | Repo | What it is |
 |------|------------|
-| [**acp-install**](https://github.com/agentic-control-plane/acp-install) | One-command installer — governance hooks + MCP connectors for coding agents and MCP clients. |
+| [**acp-install**](https://github.com/agentic-control-plane/acp-install) | One-command installer — policy hooks + MCP connectors for coding agents and MCP clients. |
 | [**acp-governance-sdks**](https://github.com/agentic-control-plane/acp-governance-sdks) | Drop-in SDKs (TypeScript + Python) — scoped subagents and delegation chains inside your framework code. |
 | [**delegation-chain-spec**](https://github.com/agentic-control-plane/delegation-chain-spec) | **ADCS** — the open spec for agent-to-agent delegation: capability narrowing, a human sponsor at the root of every chain, per-hop scope intersection. |
-| [**hermes-acp-plugin**](https://github.com/agentic-control-plane/hermes-acp-plugin) | Native Python plugin for Nous Research's Hermes Agent — `pip install hermes-acp`, every tool call governed. |
+| [**hermes-acp-plugin**](https://github.com/agentic-control-plane/hermes-acp-plugin) | Native Python plugin for Nous Research's Hermes Agent — `pip install hermes-acp`, every tool call policy-checked. |
 | [**acp-pr-reviewer-demo**](https://github.com/agentic-control-plane/acp-pr-reviewer-demo) | Worked A2A example — a PR reviewer delegating to scoped sub-agents, every hop audited. |
 | [**agentgovbench**](https://github.com/agentic-control-plane/agentgovbench) | 48-scenario benchmark testing identity, policy, and observability across agent frameworks. |
 | [**GatewayStack**](https://github.com/agentic-control-plane/GatewayStack) | The runtime the above build on — identity, policy, limits, routing, PII redaction, audit as composable npm modules. |
