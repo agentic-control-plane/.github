@@ -1,0 +1,49 @@
+name: Bug report
+description: Something in ACP is broken or behaves unexpectedly
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. If you would rather not post publicly, email support@agenticcontrolplane.com instead.
+        Please redact API keys and anything from `~/.acp/credentials`.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS and version
+      placeholder: "macOS 15.3 / Ubuntu 24.04 / Windows 11 (WSL2)"
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Agent(s) and version(s)
+      placeholder: "Claude Code 2.1.x, Codex CLI 0.150.0, Cursor ..."
+    validations:
+      required: true
+  - type: input
+    id: node
+    attributes:
+      label: Node version
+      placeholder: "node --version"
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Install mode
+      options:
+        - Connected (default)
+        - Local (--local)
+        - Not sure / not applicable
+  - type: textarea
+    id: output
+    attributes:
+      label: Installer or command output
+      description: Paste the full terminal output. Text is better than a screenshot.
+      render: shell
