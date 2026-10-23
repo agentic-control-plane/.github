@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Support and how to ask
+    url: https://github.com/agentic-control-plane/.github/blob/main/SUPPORT.md
+    about: Where to get help and what to include in a report.
+  - name: Report a security issue
+    url: https://github.com/agentic-control-plane/.github/blob/main/SECURITY.md
+    about: Please use private vulnerability reporting, not a public issue.
+  - name: Email support
+    url: mailto:support@agenticcontrolplane.com
+    about: For anything you would rather not post publicly.
