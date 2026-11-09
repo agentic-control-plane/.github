@@ -58,7 +58,7 @@ Other ways in:
 
 Keep both. A sandbox limits where the agent can write and what it can reach. Auto mode uses a classifier to decide each call, and it blocks force-push and `curl | bash` by default. Both are per harness, and neither is your own rule set. ACP adds one set of allow / ask / deny rules and one log across Claude Code, Codex and the rest, and the safety floor runs in a hook outside the model.
 
-If ACP is unreachable, interactive sessions go ahead with a loud UNGOVERNED notice, and the safety floor still runs on the machine. Unattended sessions (background, subagent, API) stay blocked until the gateway answers. It's the same hook on every harness; only the bundled fallback hook, used when GitHub can't be reached at install time, always fails open. [Details](https://agenticcontrolplane.com/trust).
+If ACP is unreachable, interactive sessions go ahead with a loud UNGOVERNED notice, and the safety floor still runs on the machine. On Claude Code, unattended sessions (headless, CI, subagents) stay blocked until the gateway answers. Other harnesses run the same hook, but it can usually only tell a run is unattended when `CI` is set, so expect them to fail open with the same notice. [Details](https://agenticcontrolplane.com/trust).
 
 ## Open source
 
